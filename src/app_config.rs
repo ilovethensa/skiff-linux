@@ -29,7 +29,6 @@ impl AppConfig {
         return home::home_dir()
             .unwrap()
             .join(".config")
-            .join(app_data::APPS_DIR)
             .join(app_data::APP_NAME);
     }
 
